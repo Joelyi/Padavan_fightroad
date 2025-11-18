@@ -33,7 +33,7 @@ permissions:
   contents: write
 
 env:
-  REPOSITORY_URL: https://github.com/vb1980/Padavan-KVR.git
+  REPOSITORY_URL: https://github.com/fightroad/Padavan-KVR
   TOOLCHAIN_URL: https://github.com/Yh793/Padavan-build/raw/master/mipsel-linux-uclibc.tar.xz
   WORK_PATH: /opt/rt-n56u
   TNAME: PSG1208s
