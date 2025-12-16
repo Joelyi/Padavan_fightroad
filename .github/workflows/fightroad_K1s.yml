@@ -80,11 +80,11 @@ jobs:
       - name: Recovery Padavan files download from remote
         if: github.event.inputs.padavanbin == 'true'
         run: |
-          cp -f Padavan/ttyd/Makefile $WORK_PATH/trunk/user/ttyd/Makefile
-          cp -f Padavan/libssl/Makefile $WORK_PATH/trunk/libs/libssl/Makefile
-          cp -f Padavan/libcurl/Makefile $WORK_PATH/trunk/libs/libcurl/Makefile
-          sudo rm -rf $WORK_PATH/trunk/user/ipset
-          cp -rf Padavan/ipset $WORK_PATH/trunk/user
+          #cp -f Padavan/ttyd/Makefile $WORK_PATH/trunk/user/ttyd/Makefile
+          #cp -f Padavan/libssl/Makefile $WORK_PATH/trunk/libs/libssl/Makefile
+          #cp -f Padavan/libcurl/Makefile $WORK_PATH/trunk/libs/libcurl/Makefile
+          #sudo rm -rf $WORK_PATH/trunk/user/ipset
+          #cp -rf Padavan/ipset $WORK_PATH/trunk/user
       - name: Recovery asp files download from remote
         if: github.event.inputs.padavanbin == 'true'
         run: |
