@@ -863,6 +863,9 @@ struct nvram_pair router_defaults[] = {
 	{ "sdnse_cache", "0" },
 	{ "ss_white", "0" },
 	{ "ss_black", "0" },
+	{ "sdns_change", "2" },
+	{ "sdns_change1", "2" },
+	{ "sdns_change2", "2" },
 #endif
 
 #if defined(APP_WIREGUARD)
